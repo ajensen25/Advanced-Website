@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Kalnia+Glaze:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Kalnia+Glaze:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Train+One&display=swap');
+
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  width: 100%;
+  margin-top: -30%;
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 0.2)25%);
+  filter: blur(6px);
+  position: absolute;
+  z-index: -100;
+  max-height: 75rem;
+}
+
+:root {
+  --font-family-one: 'Goldman', 'Arial';
+  --font-family-two: 'Train One';
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0
+}
+
+h2 {
+  margin: 0;
+}
