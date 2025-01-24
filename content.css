@@ -1,0 +1,170 @@
+.streaming {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.streaming-title {
+  color: white;
+  font-family: var(--font-family-one);
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
+
+.streaming-grid {
+  display: grid;
+  width: 30%;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+  height: 3rem;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid rgba(255, 255, 255, 0.704);
+  padding: 0.5rem;
+  font-family: var(--font-family-one);
+  font-size: 11px;
+}
+
+.player-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: -0.3rem;
+}
+
+.stream {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid rgba(255, 255, 255, 0.704);
+  padding: 1rem;
+}
+
+.streaming-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+
+
+
+.tracklist {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-top: 4rem;
+}
+
+.tracklist-title {
+  color: white;
+  font-family: var(--font-family-one);
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
+
+.tracks-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-family-one);
+}
+
+.left-track {
+  display: flex;
+  align-items: center;
+}
+
+.track-number {
+  color: rgb(178, 178, 178);
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  width: 1rem;
+}
+
+.play-track {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  border-radius: 100px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.play-track:hover {
+  background-color: rgba(44, 44, 44, 0.602);
+}
+
+.play-track-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.track-description {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.track-title {
+  margin-bottom: 0.2rem;
+}
+
+.track-artist {
+  color: rgb(235, 235, 235);
+  font-size: 12px;
+}
+
+.right-track {
+  display: flex;
+  align-items: center;
+}
+
+.track-time {
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.share-track {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 100px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.share-track:hover {
+  background-color: rgba(44, 44, 44, 0.602);
+}
+
+.share-track-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 0.5rem;
+}
+
+
+
+
+
+.footer-space {
+  height: 3rem;
+}
