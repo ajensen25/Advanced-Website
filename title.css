@@ -32,6 +32,41 @@
   width: 18rem;
 }
 
+@media only screen and (width < 800px) {
+  .image {
+    height: 15rem;
+    width: 15rem;
+  }
+  .song-name {
+    font-size: 14px;
+  }
+  .song-artist {
+    font-size: 14px;
+  }
+  .song-content {
+    margin-top: 0%;
+  }
+}
+
+@media only screen and (width < 600px) {
+  .song-buttons {
+    flex-direction: column;
+  }
+  .image {
+    width: 10rem;
+    height: 10rem;
+  }
+  .song-name {
+    font-size: 10px;
+  }
+  .song-artist {
+    font-size: 10px;
+  }
+  .release-date {
+    font-size: 10px;
+  }
+}
+
 .song-content {
   display: flex;
   flex-direction: column;
@@ -57,7 +92,8 @@
 }
 
 .pfp1, .pfp2 {
-  height: 4.5rem;
+  height: 4rem;
+  width: 4rem;
   border-radius: 100px;
   cursor: pointer;
   margin-right: 1rem;
